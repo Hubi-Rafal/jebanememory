@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="obr1.jpg" />
+    <None Remove="obr2.jpg" />
+    <None Remove="obr3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="obr1.jpg" />
+    <Resource Include="obr2.jpg" />
+    <Resource Include="obr3.jpg" />
+  </ItemGroup>
+
+</Project>
